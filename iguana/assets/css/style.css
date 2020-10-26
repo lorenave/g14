@@ -1,0 +1,83 @@
+body{
+    text-align: center; 
+    color:#FFFFFF;
+    background-color: #000000;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body * {
+    margin: 0; 
+    border: 0; 
+    padding: 0;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0.25em;
+}
+
+header{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.iguana-back {
+    height: 100vh;
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.desc-section {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 16px/19px;
+    font-weight: 300;
+    white-space: nowrap; /*revisar*/
+    margin-left: 76px;
+    margin-right: 76px;
+}
+
+.desc-texto {
+    width: 37%;
+    vertical-align: middle; 
+    white-space: normal;
+    margin-right: 8%;
+}
+
+.desc-foto {
+    margin: 0%;
+    width: 31%; 
+    float: right;
+    margin-left: 2.5%;
+    vertical-align: middle;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+.galeria-iguanas {
+    display: inline-block;
+    margin: 73px 150px 73px 150px; 
+}
+
+.fotos-galeria {
+    width: 30%; 
+    display: inline-block;
+
+}
+
+.foto-iguana{
+    width: 70%; 
+}
