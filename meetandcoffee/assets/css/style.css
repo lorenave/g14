@@ -82,6 +82,10 @@ h5 {
     padding: 6.25rem 3.125rem; 
 }
 
+.hero-section2 {
+    padding: 4rem; 
+}
+
 section, footer {
     margin-top:4.6875rem;
 }
@@ -124,7 +128,7 @@ footer{
     vertical-align: middle;
     text-align: left;
     padding: 0 21% 0 21%;
-    margin-top: 10.888rem;
+    margin-top: 5.388em;
 }
 
 .simposio-foto { 
