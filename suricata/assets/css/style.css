@@ -1,0 +1,28 @@
+.bg-magenta {
+    background-color: #E83E8C;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #373A3C;
+}
+
+h1{
+    font-size:60px;
+    font-weight: 700;
+    color:#707070;
+}
+
+h5 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size:40px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.icons-section {
+    background-color: #17A2B8;
+}

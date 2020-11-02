@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+}
+
+.bg-color{
+    background-color: #28A745;
+    color: #ffffff;
+}
+
+h5{
+    font-weight: 300;
+}
+
+h3{
+    font-weight: 300;
+}
+
+.casilla-form{
+    color: #707070;
+    font-weight: 300;
+}
+
+.texto-footer{
+    color: #707070;
+    font-weight: 300;
+}
+
+small{
+    color: #707070;
+    font-weight: 300;
+}
+
+.empresas{
+    color: #707070;
+    font-weight: 300;
+}
