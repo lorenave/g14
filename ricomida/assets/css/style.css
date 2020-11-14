@@ -1,0 +1,45 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+}
+
+.ricomida{
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+}
+
+.carousel-indicators{
+    top:200px;
+}
+
+.carousel-indicators li{
+    background-color: #999999;
+}
+
+.carousel-indicators .active{
+    background-color: #373A3C;
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+li{
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+.ingredientes{
+    padding-bottom: 12px;
+}
+
+.ricomida-texto{
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+}
+
+.subtitulo-receta{
+    font-weight: 700;
+}

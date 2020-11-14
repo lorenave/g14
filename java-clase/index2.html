@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang=”en”>
+
+<head>
+    <meta charset=”UTF-8″>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+    </script>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family:Arial, Helvetica, sans-serif
+        }
+        a {
+            color:#ffff;
+        }
+        .nav{
+            background-color: #555;
+            text-align: center;
+        }
+        .nav ul{
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+            display: inline-block;
+        }
+        .nav ul li{
+            position: relative;
+            float:left;
+        }
+        .nav ul li + li{
+            margin-left: 2px;
+        }
+
+        .nav ul li a{
+            display: inline-block;
+            background-color: #666;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .nav ul li a:hover{
+            background-color: #fff;
+            color: #555;
+        }
+        .nav ul li > ul{
+            display: none;
+            position: absolute;
+            width: 100px;
+            top: 100%;
+            left: -1px;
+            z-index:1;
+        }
+        .nav ul li > ul li{
+            float:none;
+            margin:0px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#">inicio</a></li>
+            <li><a href="#">quienes somos</a></li>
+            <li><a href="#">servicios</a></li>
+            <ul>
+                <li><a href="#">servicio1</a></li>
+                <li><a href="#">servicio2</a></li>
+                <li><a href="#">servicio3</a></li>
+            </ul>
+            <li><a href="#">contacto</a></li>
+        </ul>
+
+    </nav>
+
+
+</body>
+
+</html>
