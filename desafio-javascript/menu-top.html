@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang=”es”>
+
+<head>
+    <meta charset=”UTF-8″>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <style>
+      nav{
+          height: 70px;
+          background-color: black;
+          color: white;
+          padding: 0px;
+          line-height: 70px;
+          padding-left: 20px;
+      }
+      nav.hide{
+          display:none;
+      }
+    </style>
+</head>
+
+<body>
+    <nav id="nav">
+        <a onclick="document.getElementById('nav').classList.add('hide');"> Esconder </a>
+    </nav>
+    <a onclick="document.getElementById('nav').classList.remove('hide');"></a> Mostrar </a>
+</body>
+
+</html>

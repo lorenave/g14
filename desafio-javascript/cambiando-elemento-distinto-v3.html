@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang=”en”>
+
+<head>
+    <meta charset=”UTF-8″>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <style>
+        .color-verde{
+            color:green;
+        }
+        .color-rojo{
+            color:red;
+        }
+        .color-violeta{
+            color:violet;
+        }
+        .color-turquesa{
+            color:turquoise
+        }
+    </style>
+</head>
+
+<body>
+    <p id="par-1"onclick="document.getElementById('par-2').classList.add('color-turquesa')">Párrafo 1</p>​
+    <p id="par-2"onclick="document.getElementById('par-4').classList.add('color-violeta')">Párrafo 2</p>
+    <p id="par-3"onclick="document.getElementById('par-1').classList.add('color-rojo')">Párrafo 3</p>
+    <p id="par-4"onclick="document.getElementById('par-3').classList.add('color-verde')">Párrafo 4</p>
+</body>
+
+</html>

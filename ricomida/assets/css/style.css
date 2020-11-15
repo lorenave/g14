@@ -35,6 +35,10 @@ li{
     padding-bottom: 12px;
 }
 
+.newsletter{
+    color: #ffffff;
+}
+
 .ricomida-texto{
     font-family: 'Lobster', cursive;
     color: #ffffff;
@@ -43,3 +47,8 @@ li{
 .subtitulo-receta{
     font-weight: 700;
 }
+
+.warning{
+    color:red;
+}
+

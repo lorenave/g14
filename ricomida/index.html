@@ -12,7 +12,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!--Mi estilo-->
     <link rel="stylesheet" href="assets/css/style.css">
-
+</head>
 <body>
     <!--navegador-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -56,14 +56,14 @@
                     <h5>110 MIN / 6 A 8 PORCIONES</h5>
                 </div>
                 <div class="bg-info">
-                    <button type="button" class="btn btn-outline-secondary float-left mr-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Presiona para enviar a tu correo">Enviar por correo</button>
+                    <button id="enviarCorreo" type="button" class="btn btn-outline-secondary float-left mr-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Presiona para enviar a tu correo">Enviar por correo</button>
                     <button type="button" class="btn btn-outline-secondary float-left" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Agregar esta receta a tus favoritos.">Añadir a favoritos</button>
                 </div>
             </div>
     </header>
 
     <!--bloque carrusel fotos-->
-    <div class="container pt-4 pb-5">
+    <section class="container pt-4 pb-5 d-none d-sm-none d-md-block">
         <div id="blogCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li rounded-circle data-target="#blogCarousel" data-slide-to="0" class="active"></li>
@@ -105,18 +105,18 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--linea divisoria-->
-    <div class="container">
+    <div class="container d-none d-sm-none d-md-block">
         <hr size="8px" color="black">
     </div>
 
     <!--receta-->
-    <div class="container pt-4">
+    <section class="container pt-4">
         <div class="row m-0">
-            <div class="col-6">
-                <h5 class="subtitulo-receta pb-3 text-decoration"><u>INGREDIENTES</u></h5>
+            <div class="col-lg-6 col-md-12">
+                <h5 class="subtitulo-receta pb-3"><u>INGREDIENTES</u></h5>
                 <ul class="p-0">
                     <li class="ingredientes">Masa</li>
                     <li>20 gr de levadura seca instantánea</li>
@@ -143,8 +143,8 @@
                 </ul>
             </div>
 
-            <div class="col-6">
-                <h5 class="subtitulo-receta pb-5 text-decoration"><u>PREPARACIÓN</u></h5>
+            <div class="col-lg-6 col-md-12">
+                <h5 class="subtitulo-receta pb-5"><u>PREPARACIÓN</u></h5>
                 <ul class="p-0">
                     <li class="text-break pb-3">1. Para la masa, disolver la levadura y el ázucar en agua tibia en
                         un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maiz, sal y 400 gr
@@ -171,7 +171,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--linea divisoria-->
     <div class="container">
@@ -179,10 +179,10 @@
     </div>
 
     <!--recetas relacionadas-->
-    <div class="container pt-2 pb-5">
+    <section class="container pt-2 pb-5">
         <h2 class="text-center text-uppercase font-weight-bold pb-5">Recetas relacionadas</h2>
         <div class="card-deck">
-            <div class="card col-4 p-0">
+            <div class="card col-lg-4 col-md-12 p-0">
                 <img src="assets/img/recipe-card-1.png" class="card-img-top img-fluid" alt="panqueque">
                 <div class="card-body">
                     <h5 class="card-title text-uppercase font-weight-bold">Panqueques con manjar y crema</h5>
@@ -190,7 +190,7 @@
                         additional content. This content is a little bit longer.</p>
                 </div>
             </div>
-            <div class="card col-4 p-0">
+            <div class="card col-lg-4 col-md-12 p-0">
                 <img src="assets/img/recipe-card-2.png" class="card-img-top img-fluid" alt="tiramisu">
                 <div class="card-body">
                     <h5 class="card-title text-uppercase font-weight-bold">Tiramisú</h5>
@@ -198,7 +198,7 @@
                         additional content. This content is a little bit longer.</p>
                 </div>
             </div>
-            <div class="card col-4 p-0">
+            <div class="card col-lg-4 col-md-12 p-0">
                 <img src="assets/img/recipe-card-3.png" class="card-img-top img-fluid" alt="plateada">
                 <div class="card-body">
                     <h5 class="card-title text-uppercase font-weight-bold">Plateada</h5>
@@ -207,10 +207,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--seccion contacto-->
-    <div class="container-fluid bg-danger py-5 text-white">
+    <section class="container-fluid newsletter bg-danger py-5">
         <div class="container py-5">
             <h2 class="text-center text-uppercase pt-4 pb-1">Suscríbete en nuestro newsletter</h2>
             <h5 class="text-center"><a>y obtén las mejores recetas que tenemos en </a><span
@@ -221,7 +221,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--footer-->
     <footer class="container-fluid p-0 bg-dark">

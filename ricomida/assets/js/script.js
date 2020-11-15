@@ -17,9 +17,20 @@ $(function(){
     $('[data-toggle="popover"]').popover();
     
 
-    $('subtitulo-receta').on("dblclick", function(){
-        $(this).addClass('rojo');
+    $('.subtitulo-receta').on("dblclick", function(){
+        $(this).addClass('warning');
     })
+
+    $('#enviarCorreo').click(
+      function(){
+        alert("El correo fue enviado")
+      }
+    )
+    $('.card-title').on("click", function(){
+      $('.card-text').toggle()
+
+    })
+
   
   });
   
